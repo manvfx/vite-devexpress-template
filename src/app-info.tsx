@@ -1,5 +1,5 @@
 const appInfo = {
-    title: 'Admin Panel'
+    title: 'مدیریت پنل'
 };
 export default appInfo;
 

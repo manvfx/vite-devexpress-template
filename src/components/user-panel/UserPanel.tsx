@@ -15,12 +15,12 @@ export default function UserPanel({ menuMode }: UserPanelProps) {
   }
   const menuItems = useMemo(() => ([
     {
-      text: 'Profile',
+      text: 'پروفایل من',
       icon: 'user',
       onClick: navigateToProfile
     },
     {
-      text: 'Logout',
+      text: 'خروج از حساب',
       icon: 'runner',
       onClick: signOut
     }

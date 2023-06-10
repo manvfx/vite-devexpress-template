@@ -4,24 +4,24 @@ import Form from 'devextreme-react/form';
 
 export default function Profile() {
   const [notes, setNotes] = useState(
-    'Sandra is a CPA and has been our controller since 2008. She loves to interact with staff so if you`ve not met her, be certain to say hi.\r\n\r\nSandra has 2 daughters both of whom are accomplished gymnasts.'
+    'ساندرا یک CPA است و از سال 2008 کنترل کننده ما بوده است. او عاشق تعامل با کارکنان است، بنابراین اگر او را ندیده اید، حتماً سلام کنید.\r\n\r\nساندرا 2 دختر دارد که هر دو ژیمناست های ماهر هستند.'
   );
   const employee = {
     ID: 7,
-    FirstName: 'Sandra',
-    LastName: 'Johnson',
-    Prefix: 'Mrs.',
-    Position: 'Controller',
+    FirstName: 'محمد امین',
+    LastName: 'نجفی',
+    Prefix: 'آقا',
+    Position: 'برنامه نویس',
     Picture: 'images/employees/06.png',
     BirthDate: new Date('1974/11/5'),
     HireDate: new Date('2005/05/11'),
     Notes: notes,
-    Address: '4600 N Virginia Rd.'
+    Address: 'تهران'
   };
 
   return (
     <React.Fragment>
-      <h2 className={'content-block'}>Profile</h2>
+      <h2 className={'content-block'}>پروفایل من</h2>
 
       <div className={'content-block dx-card responsive-paddings'}>
         <div className={'form-avatar'}>
